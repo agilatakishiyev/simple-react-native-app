@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@apollo/client": "^3.0.0-beta.48",
+    "@apollo/link-context": "^2.0.0-beta.3",
+    "expo": "~42.0.0",
+    "graphql": "^15.0.0",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+    "react-native-paper": "^4.10.0",
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "^11.14.3"
+  },
+  "devDependencies": {
+    "@babel/core": "~7.9.0"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "private": true
+}
